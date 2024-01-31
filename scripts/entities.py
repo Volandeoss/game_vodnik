@@ -7,6 +7,8 @@ class PhysicsEntity:
         self.type = e_type
         self.pos = list(pos)
         self.size = size
+
+        # гравитация эбать
         self.velocity = [0, 0]
 
     def update(self, movement=(0, 0)):
